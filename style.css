@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+}
+
+.container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.order {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+}
+
+.summary {
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 20px;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-between;
+    display: flex;
+    padding: 25px;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.annual h5 {
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+
+.annual p {
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+
+}
+
+.change:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    transition: color .36 ease;
+}
+
+.procced-btn {
+   display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.procced-btn:hover {
+    background-color: hsl(223, 47%, 23%);
+    transition: background-color .36 ease;
+
+}
+
+.cancel-btn {
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
